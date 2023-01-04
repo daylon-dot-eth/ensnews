@@ -1,0 +1,66 @@
+body {
+    background-color: #f9f9f9;
+  }
+
+/* unvisited link */
+a:link {
+    color: rgb(44, 130, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(44, 130, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(44, 130, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+
+  
+  table.links { 
+    text-decoration: none; 
+    font-size: 44px;
+
+}
+
+
+  h3.feed-title {
+    text-align: left;
+    text-decoration-line: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .5;
+  }
+
+  h4.feed-item-title {
+    text-align: left;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p.feed-item-desc {
+    text-align: left;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  img {
+    border-style: solid;
+    border-color: #99999958;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+  }
