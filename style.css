@@ -39,8 +39,8 @@ a:link {
 
 
   h3.feed-title {
-    text-align: left;
-    text-decoration-line: underline;
+    text-align: center;
+    text-decoration: none; 
     font-family: Arial, Helvetica, sans-serif;
     opacity: .5;
   }
