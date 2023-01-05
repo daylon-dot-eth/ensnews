@@ -2,65 +2,105 @@ body {
     background-color: #f9f9f9;
   }
 
+  @font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('Satoshi-Medium.woff2') format('woff2'),
+         url('Satoshi-Medium.woff') format('woff'),
+         url('Satoshi-Medium.ttf') format('truetype');
+         font-weight: 830;
+         font-display: swap;
+         font-style: normal;
+         letter-spacing: -1%;
+         line-height: 120%;
+  }
+
 /* unvisited link */
 a:link {
-    color: rgb(33, 95, 134);
-    font-family: Arial, Helvetica, sans-serif;
+    color: #5298FF;
     text-decoration: none;
+    font-family: 'Satoshi-Medium';
+    letter-spacing: -1%;
+    line-height: 120%;
   }
   
   /* visited link */
   a:visited {
-    color: rgb(33, 95, 134);
-    font-family: Arial, Helvetica, sans-serif;
+    color: #5298FF;
     text-decoration: none;
+    font-family: 'Satoshi-Medium';
+    letter-spacing: -1%;
+    line-height: 120%;
   }
   
   /* mouse over link */
   a:hover {
-    color: rgb(50, 50, 50);
-    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
     text-decoration: none;
+    font-family: 'Satoshi-Medium';
+    opacity: .6;
+    letter-spacing: -1%;
+    line-height: 120%;
   }
   
   /* selected link */
   a:active {
-    color: rgb(33, 95, 134);
-    font-family: Arial, Helvetica, sans-serif;
+    color: #5298FF;
     text-decoration: none;
+    font-family: 'Satoshi-Medium';
+    letter-spacing: -1%;
+    line-height: 120%;
   }
 
   
   table.links { 
     text-decoration: none; 
     font-size: 44px;
-
+    font-family: 'Satoshi-Medium';
+    letter-spacing: -1%;
+    line-height: 120%;
 }
 
+h1.section {
+  text-align: center;
+  color: #333333;
+  text-decoration: none; 
+  font-family: 'Satoshi-Medium';
+  font-size: 48px;
+  letter-spacing: -1%;
+  line-height: 120%;
+  opacity: .7;
+}
 
   h3.feed-title {
+    font-family: 'Satoshi-Medium';
     text-align: center;
     text-decoration: none; 
-    font-family: Arial, Helvetica, sans-serif;
     opacity: .5;
+    letter-spacing: -1%;
+    line-height: 120%;
   }
 
   h4.feed-item-title {
+    font-family: 'Satoshi-Medium';
     text-align: left;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1%;
+    line-height: 120%;
   }
 
   p.feed-item-desc {
+    font-family: 'Satoshi-Medium';
     text-align: left;
+    color: #333333;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1%;
+    line-height: 120%;
   }
   
 
   img {
     border-style: solid;
-    border-color: #99999958;
+    border-color:#33333358;
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
   }
