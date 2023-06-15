@@ -54,7 +54,7 @@ a:link {
   
   table.links { 
     text-decoration: none; 
-    font-size: 44px;
+    font-size: 66px;
     font-family: 'Satoshi-Medium';
     letter-spacing: -1%;
     line-height: 120%;
@@ -65,7 +65,7 @@ h1.section {
   color: #333333;
   text-decoration: none; 
   font-family: 'Satoshi-Medium';
-  font-size: 48px;
+  font-size: 56px;
   letter-spacing: -1%;
   line-height: 120%;
   opacity: .7;
@@ -96,11 +96,31 @@ h1.section {
     letter-spacing: -1%;
     line-height: 120%;
   }
+
+  p.about {
+    font-family: 'Satoshi-Medium';
+    font-size: 24px;
+    text-align: left;
+    color: #333333;
+    text-decoration: none;
+    letter-spacing: -1%;
+    line-height: 120%;
+  }
+
+  p.about2 {
+    font-family: 'Satoshi-Medium';
+    font-size: 30px;
+    text-align: left;
+    color: #333333;
+    text-decoration: none;
+    letter-spacing: -1%;
+    line-height: 120%;
+  }
   
 
   img {
     border-style: solid;
     border-color:#33333358;
-    border-radius: 5px;
-    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+    padding: 3px 3px 3px 3px;
   }
